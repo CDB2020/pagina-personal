@@ -1,0 +1,158 @@
+@media screen and (min-width: 321px) and (max-width: 760px) {
+    body {
+        background-color: white;
+    }
+
+    h1, #header #hgroup h2 {
+        padding-left: 5px;
+        color: rgb(122, 95, 90);
+    }
+
+    .row1 a {
+        color: #beb7e9
+    }
+
+    #homepage {
+        max-width: 65%;
+    }
+
+    #header nav {
+        display: inline-block;
+        float: none;
+    }
+
+    #container #content #posts ul li article figure h2 {
+        padding-top: 5px;
+    }
+
+    #container #homepage #services {
+        width: 154%;
+    }
+
+    .one_quarter {
+        width: 47%;
+    }
+
+    figcaption p {
+        text-align: justify;
+    }
+
+
+    #header, #container, #footer, #slider img {
+        width: 100%;
+    }
+
+    #header nav {
+        margin-left: 10px;
+    }
+
+    div.wrapper {
+        text-align: center;
+    }
+
+    #container #content {
+        width: 66%;
+        padding: 5px;
+    }
+
+    #container #content #posts ul li article figure figcaption {
+        display: block;
+        float: left;
+        width: 75%;
+    }
+
+    #container #right_column {
+        float: right;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 320px){
+    body {
+        background-color: white;
+        width: auto;
+    }
+    
+    nav {
+        font-size: 12px;
+    }
+
+    #header #hgroup h2 {
+        padding: 5px;
+    }
+
+    .row1, .row1 a {
+        background-color: rgb(119, 92, 88);
+    }
+
+    body, #container, #header, #hgroup, #wrapper, #row1, #slider, #footer {
+        width: auto;   
+    }
+
+    #slider img {
+        width: 100%;
+        text-align: center;
+    }
+
+    div.wrapper {
+        text-align: center;
+    }
+
+    .wrapper #content ul li p {
+        text-align: justify;
+    }
+
+    .wrapper #content ul .last p {
+        text-align: justify;
+    }
+
+    .one_quarter figure img {
+        padding-left: 5px;
+    }
+    
+    /*.clear figure.img {
+        width: 100%;
+        display: block;
+    }*/
+
+    /*#content {
+        width: 100%;
+    }  */  
+    #container #content #posts ul li article figure figcaption {
+        width: 100%;
+    }
+
+    /*figcaption p{
+        width: 100%;
+        font-size: small;
+    }*/
+
+    #container #content {
+        width: inherit;
+    }
+    
+    nav, .one_quarter {
+        width: auto;
+        float: none;
+    }
+
+    #right_column {
+        display: none;
+    }
+
+    #container #content #posts ul li article figure img{
+        text-align: justify;
+        position: relative;
+        float: none;
+        margin-bottom: 5px;
+    }
+
+    #container .more {
+        padding-right: 20px;
+    }
+
+    #container #content #posts ul {
+        padding: 5px;
+    }
+}
+
